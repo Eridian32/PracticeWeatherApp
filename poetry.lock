@@ -195,6 +195,7 @@ filelock = ">=3.0"
 mypy = [
     {version = ">=0.500", markers = "python_version < \"3.8\""},
     {version = ">=0.700", markers = "python_version >= \"3.8\" and python_version < \"3.9\""},
+    {version = ">=0.780", markers = "python_version >= \"3.9\""},
 ]
 pytest = ">=3.5"
 
@@ -260,8 +261,8 @@ testing = ["pytest (>=4.6)", "pytest-checkdocs (>=2.4)", "pytest-flake8", "pytes
 
 [metadata]
 lock-version = "1.1"
-python-versions = ">=3.7,<3.9"
-content-hash = "4e3e8e39b443a70b529d703bd5090ad2f21eaebfe64c325aaa4ecab4307ae20c"
+python-versions = ">=3.7"
+content-hash = "1d3ab10dae239f0f2c81db9d736003f2d2c088ae8a381600056c4a75318b7953"
 
 [metadata.files]
 asgiref = [
